@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Cards{
+    overflow: hidden !important;
+    transition: 0.3s all ease-in-out !important;
+}
+.Cards:hover{
+    transform: scale(1.04) !important
+}
